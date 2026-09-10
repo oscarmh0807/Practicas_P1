@@ -25,7 +25,7 @@ public:
     }
 
     void estadoAcademico() const {
-        cout << "=== Estado Academico ===" <<endl;
+        cout << "= Estado Academico =" <<endl;
         
         if (riesgoAcademico()) {
             cout << "Estado: EN RIESGO ACADEMICO" << endl;

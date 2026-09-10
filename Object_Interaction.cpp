@@ -27,7 +27,7 @@ public:
     }
 
     void mostrarInformacion() {
-        cout << "Nombre: " << nombre << "| Matricula: " << matricula << "|  Promedio: " << promedio << endl;
+        cout << "Nombre: " << nombre << " | Matricula: " << matricula << " |  Promedio: " << promedio << endl;
     }
 };
 
@@ -71,7 +71,7 @@ int main() {
     Estudiante e1("Oscar Huitron", "A001", 99.0);
     Estudiante e2("Gerardo Avalos", "A002", 88.5);
     Estudiante e3("Alan Morales", "A003", 78.0);
-    Estudiante e4("Michelle Juárez", "A004", 2.6);
+    Estudiante e4("Michelle Juarez", "A004", 2.6);
     Estudiante e5("Nana Osaki", "A005", 98.3);
 
     Grupo grupoProgramacion;
