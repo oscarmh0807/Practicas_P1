@@ -1,11 +1,13 @@
 #include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
 #include <locale.h>
 
 using namespace std;
 
-int main()
+int main(int argc, char *argv[])
 {
-    setlocale(LC_ALL, "spanish");
+    setlocale(LC_ALL, "Spanish");
 
     double num1, num2;
     char operador;
@@ -13,10 +15,10 @@ int main()
     cout << "===== CALCULADORA DE CONSOLA =====" << endl;
     cout << "Ingrese el primer número: ";
     cin >> num1;
-    cout << "Ingrese el segundo número: ";
-    cin >> num2;
     cout << "Ingrese el operador (+, -, *, /):";
     cin >> operador;
+    cout << "Ingrese el segundo número: ";
+    cin >> num2;
 
     switch(operador)
     {
