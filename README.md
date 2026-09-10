@@ -2,7 +2,7 @@
 
 **Estudiante:** Oscar Miguel Huitrón Zenteno  
 **Materia:** Programación Orientada a Objetos  
-**Institución:** Universidad Autónoma de Guadalajara (UAG) 
+**Institución:** Universidad Autónoma de Guadalajara (UAG)
 **Maestro:** Manuel Balderas Victoria 
 **Lenguaje:** C++  
 -----------------------------------------------------------
@@ -25,7 +25,9 @@ Practicas_P1/
 ├── Object_Interaction.cpp          # Ejercicio 5: Interacción entre Objetos (Grupo)
 └── README.md                       # Documentación del proyecto
 
-## Resumen de ejercicios
+```
+------------------------------------------------------------
+### Resumen de ejercicios
 
 
 01 - Console_Calculator.cpp === Uso de tipos primitivos, estructura switch y validación explícita de división entre cero.
@@ -34,11 +36,11 @@ Practicas_P1/
 04 - First_Class.cpp, === Encapsulamiento con miembros private y public, constructores con this-> y métodos de verificación de estado.
 05 - Object_Interaction.cpp === Composición de objetos, arreglos de objetos (Estudiante[5]) y cálculo del promedio general de un grupo.
 
-=== Declaración del Uso de IA ===
+### Declaración del Uso de IA 
 De acuerdo con los lineamientos de la rúbrica, se declara el uso de Inteligencia Artificial durante el desarrollo de la práctica bajo el siguiente alcance:
 
-- Asistencia para estructurar la sintaxis inicial y refinar soluciones primitivas como el conteo directo de vocales por índice y la inversión de cadenas.
+* Asistencia para estructurar la sintaxis inicial y refinar soluciones primitivas como el conteo directo de vocales por índice y la inversión de cadenas.
 
-- Orientación para la comprensión del flujo de trabajo en Git/GitHub, control de versiones, commits descriptivos y la estructuración profesional del archivo README.md.
+* Orientación para la comprensión del flujo de trabajo en Git/GitHub, control de versiones, commits descriptivos y la estructuración profesional del archivo README.md.
 
-- La lógica interna, la prueba de casos límite  y la depuración del código fueron comprendidas, probadas y ejecutadas de manera autónoma.
+* La lógica interna, la prueba de casos límite  y la depuración del código fueron comprendidas, probadas y ejecutadas de manera autónoma.
