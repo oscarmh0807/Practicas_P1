@@ -13,33 +13,25 @@ int main()
     {
         cout << "La calificacion debe estar entre 0 y 100" << endl;
     }
-    else if(calificacion >= 95)
+    else if (calificacion < 60)
     {
-        cout << "Su calificacion es: Excelente (E)" << endl;
+        cout << "Su calificacion es: No acreditada (NA)" << endl;
     }
-    else if(calificacion >= 90)
-    {
-        cout << "Su calificacion es: Muy buena (MB)" << endl;
-    }
-    else if(calificacion >= 80)
-    {
-        cout << "Su calificacion es: Buena (B)" << endl;
-    }
-    else if(calificacion >= 70)
+    else if (calificacion < 70)
     {
         cout << "Su calificacion es: Suficiente (S)" << endl;
     }
-    else if(calificacion >= 60)
+    else if (calificacion < 80)
     {
-        cout << "Su calificacion es: Regular (R)" << endl;
+        cout << "Su calificacion es: Buena (B)" << endl;
     }
-    else if(calificacion < 60 && calificacion > 0)
+    else if (calificacion < 90)
     {
-        cout << "Su calificacion es: Mala (M)" << endl;
+        cout << "Su calificacion es: Muy buena (MB)" << endl;
     }
-    else if (calificacion == 0)
+    else
     {
-        cout << "No entregó o no acreditó (NA)" << endl;
+        cout << "Su calificacion es: Excelente (E)" << endl;
     }
 
     return 0;
